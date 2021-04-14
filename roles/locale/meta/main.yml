@@ -1,0 +1,15 @@
+galaxy_info:
+  author: devroles
+  description: >-
+    Sets the locale on a system
+  license: GPLv3
+  min_ansible_version: 2.8
+  platforms:
+    - name: EL
+      versions:
+        - all
+
+  galaxy_tags:
+    - oasis
+
+dependencies: []

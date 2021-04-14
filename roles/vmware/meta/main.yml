@@ -1,0 +1,23 @@
+galaxy_info:
+  author: devroles
+  description: >-
+    Installs packages and drivers for Vagrant boxes that live in
+    VMWare hosts
+  company: Red Hat, Inc.
+  license: GPLv3
+  min_ansible_version: 2.8
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+
+  galaxy_tags:
+    - vagrant
+
+dependencies: []
