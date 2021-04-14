@@ -9,10 +9,6 @@ Requirements
 
 Ansible 2.8 or higher
 
-Red Hat Enterprise Linux 7 or equivalent
-
-Valid Red Hat Subscriptions
-
 Role Variables
 --------------
 
