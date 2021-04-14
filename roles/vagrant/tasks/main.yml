@@ -16,7 +16,7 @@
 - name: ensure SSHD is installed
   become: true
   package:
-    name: "{{ vagrant_sshd_packages }}"
+    name: "{{ vagrant_sshd_package }}"
     state: present
 
 - name: get build time

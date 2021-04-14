@@ -7,3 +7,4 @@
     build-locale-archive
   when: >
     ansible_facts.distribution in ['CentOS']
+  changed_when: false
