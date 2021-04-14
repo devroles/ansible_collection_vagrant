@@ -2,3 +2,4 @@
   become: true
   command: dnf clean all
   when: ansible_facts.pkg_mgr not in ['atomic_container']
+  changed_when: false

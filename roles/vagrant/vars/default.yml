@@ -1,1 +1,3 @@
 vagrant_ssh_service_name: sshd
+vagrant_ssh_packages:
+  - openssh-server
